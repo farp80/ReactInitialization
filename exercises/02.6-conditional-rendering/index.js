@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 
 const Alert = props => {
-	console.log(props.color);
 	if (props.color === "red") {
 		return (
 			<div className="alert alert-danger" role="alert">
