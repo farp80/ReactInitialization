@@ -3,7 +3,11 @@ import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 
 const Alert = props => {
-	//your component here
+    
+	return (
+        <div>
+        </div>
+    );
 };
 Alert.propTypes = {
 	color: PropTypes.string,
